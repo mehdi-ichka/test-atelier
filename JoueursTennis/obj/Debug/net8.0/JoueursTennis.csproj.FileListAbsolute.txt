@@ -325,3 +325,11 @@ C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutsh
 C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\bin\Debug\net8.0\refs\System.Xml.XPath.dll
 C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\bin\Debug\net8.0\refs\System.Xml.XPath.XDocument.dll
 C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\bin\Debug\net8.0\refs\WindowsBase.dll
+C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\obj\Debug\net8.0\JoueursTennis.sourcelink.json
+C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\obj\Debug\net8.0\JoueursTennis.csproj.AssemblyReference.cache
+C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\obj\Debug\net8.0\JoueursTennis.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mehdi\OneDrive\Bureau\CodeCraft Solutions\REVISIONS-interviews\C#-Nutshell\testLatelier\JoueursTennis\obj\Debug\net8.0\JoueursT.B225B24D.Up2Date

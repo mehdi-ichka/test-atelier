@@ -37,6 +37,7 @@
       "JoueursTennis/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6",
+          "Swashbuckle.AspNetCore": "8.1.0",
           "Microsoft.AspNetCore.Antiforgery": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.BearerToken": "8.0.0.0",
@@ -346,7 +347,66 @@
           "JoueursTennis.dll": {}
         }
       },
+      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
+      "Microsoft.OpenApi/1.6.23": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.6.23.0",
+            "fileVersion": "1.6.23.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        }
+      },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.6": {},
+      "Swashbuckle.AspNetCore/8.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
+          "Swashbuckle.AspNetCore.Swagger": "8.1.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "8.1.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "8.1.0"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/8.1.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.23"
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.1229"
+          }
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/8.1.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "8.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.1229"
+          }
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/8.1.0": {
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.1229"
+          }
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2161,12 +2221,54 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
+      "path": "microsoft.extensions.apidescription.server/6.0.5",
+      "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.6.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tZ1I0KXnn98CWuV8cpI247A17jaY+ILS9vvF7yhI0uPPEqF4P1d7BWL5Uwtel10w9NucllHB3nTkfYTAcHAh8g==",
+      "path": "microsoft.openapi/1.6.23",
+      "hashPath": "microsoft.openapi.1.6.23.nupkg.sha512"
+    },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.6": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-7GOQdMzQcH7o/bPFL/I2kQEgMnq2pYZ+exhGb9nNqs624K9w2jB2zieh4sOH9+a01i/G9iTWfeUI3IGMF7SKNg==",
       "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.6",
       "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8NJwXskWNBhX4IntitP1VP68hzhQ9Sex4mR9ZbqCuuUsaWlfrMA+yDIYDFsbHlB2NQ6Gt27AT15BWo9jxHj1tg==",
+      "path": "swashbuckle.aspnetcore/8.1.0",
+      "hashPath": "swashbuckle.aspnetcore.8.1.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TRpBDdWh/6IzXHOLKVEuZSuhcdc8OIwhr8dyLnWvEh6FO4f0KiATAzr8yzHspcCFzCc/CONpvUCq4DzazpP6Og==",
+      "path": "swashbuckle.aspnetcore.swagger/8.1.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.8.1.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sXAUNodmnzrJb1qmgdLY6HgTDsgagXCn6p+qygW2wP0BjcvdZZA6GdDgtuc8iQON9ekrp7m5G0Zc09lvuNhc/A==",
+      "path": "swashbuckle.aspnetcore.swaggergen/8.1.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.8.1.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PYyTbYrEz1q8N8ZpCFzY5hOkvP5gv9oIml06wrrrjGRFvVXyCF/b58FRI/9mnRKRBAmWKZR5pqhmJBzvsVveSQ==",
+      "path": "swashbuckle.aspnetcore.swaggerui/8.1.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.8.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
       "type": "referenceassembly",

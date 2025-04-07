@@ -2,11 +2,15 @@ using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseSwagger();
+app.UseSwaggerUI();
+
+app.MapGet("/", () => Results.Redirect("/swagger"));
 
 app.UseHttpsRedirection();
 
@@ -39,7 +43,7 @@ app.MapGet("/getPlayer/{id:int}", async (int id) =>
         .FirstOrDefault(p => p.GetProperty("id").GetInt32() == id);
 
     if (player.ValueKind == JsonValueKind.Undefined)
-        return Results.NotFound($"Aucun joueur trouvé avec l’ID {id}");
+        return Results.NotFound($"Aucun joueur trouvï¿½ avec lï¿½ID {id}");
 
     var playerClone = player.Clone();
     doc.Dispose();

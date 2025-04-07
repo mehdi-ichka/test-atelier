@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "moG3mXTni0Q97pMorRpoWkbLt3QM9SiXVASf1VRF8V1Bs3O1MqCcWHQyIrJqh9xSSH+D2yWaw+HlS08vbAAc/w==",
+  "dgSpecHash": "ZF7BXox9C8pmJBdO5ohc/krTGC7N6zWT4ncCSRy3xgyHKt4QVPsXU5TlVc4+5jQfSZug/iQ5pkGfNNbgn76W9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\mehdi\\OneDrive\\Bureau\\CodeCraft Solutions\\REVISIONS-interviews\\C#-Nutshell\\testLatelier\\JoueursTennis\\JoueursTennis.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mehdi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+    "C:\\Users\\mehdi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\mehdi\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
+    "C:\\Users\\mehdi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\mehdi\\.nuget\\packages\\swashbuckle.aspnetcore\\8.1.0\\swashbuckle.aspnetcore.8.1.0.nupkg.sha512",
+    "C:\\Users\\mehdi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.1.0\\swashbuckle.aspnetcore.swagger.8.1.0.nupkg.sha512",
+    "C:\\Users\\mehdi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\8.1.0\\swashbuckle.aspnetcore.swaggergen.8.1.0.nupkg.sha512",
+    "C:\\Users\\mehdi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\8.1.0\\swashbuckle.aspnetcore.swaggerui.8.1.0.nupkg.sha512"
   ],
   "logs": []
 }
