@@ -1,0 +1,78 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio working folder
+.vs/
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Auto-generated files
+Generated_Code/
+
+# DotCover
+*.dotCover
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs
+*.log
+
+# Secrets / sensitive files
+secrets.json
+*.pfx
+*.key
+
+# Local DB
+*.mdf
+*.ldf
+
+# Docker files
+**/Dockerfile.*
+**/docker-compose*
+
+# Node / frontend (if any)
+node_modules/
+dist/
+build/
+
+# Mac/Linux
+.DS_Store
+*.swp
+*~
+
+# Windows Thumbs.db
+Thumbs.db
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# Others
+*.ncrunch*
+*.localhistory/
+*.sdf
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+
+# Optional: ignore players.json if it's generated
+# players.json
