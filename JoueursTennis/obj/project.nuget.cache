@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "moG3mXTni0Q97pMorRpoWkbLt3QM9SiXVASf1VRF8V1Bs3O1MqCcWHQyIrJqh9xSSH+D2yWaw+HlS08vbAAc/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mehdi\\OneDrive\\Bureau\\CodeCraft Solutions\\REVISIONS-interviews\\C#-Nutshell\\testLatelier\\JoueursTennis\\JoueursTennis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mehdi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}
